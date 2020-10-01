@@ -11,18 +11,19 @@ p{
     margin-top: 15px;
 }
 input {
-    border-radius: 5px 0px 0px 5px;
-    padding: 10px;
+    border-radius: 7px 0px 0px 7px;
+    padding: 10px 30px 10px 15px;
     border: solid 1px #8b8b8bcc;
     height: 28px;
 }
 button {
+    border-radius: 0px 7px 7px 0px;
     margin: -5px;
     padding: 10px;
     border: solid 1px #025125;
     height: 50px;
     background-color: #025125;
-    text: 
+    color: white
 }
 body{
     background-color: #fffbf7;
