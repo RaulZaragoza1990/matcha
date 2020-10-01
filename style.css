@@ -1,0 +1,30 @@
+h1{
+    color: #025125;
+    text-align: center;
+    font-family: serif;
+}
+form, h4, p{
+    text-align: center;
+}
+p{
+    color: #8b8b8bcc;
+    margin-top: 15px;
+}
+input {
+    border-radius: 5px 0px 0px 5px;
+    padding: 10px;
+    border: solid 1px #8b8b8bcc;
+    height: 28px;
+}
+button {
+    margin: -5px;
+    padding: 10px;
+    border: solid 1px #025125;
+    height: 50px;
+    background-color: #025125;
+    text: 
+}
+body{
+    background-color: #fffbf7;
+
+}
