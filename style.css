@@ -1,31 +1,71 @@
-h1{
-    color: #025125;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
     text-align: center;
-    font-family: serif;
-}
-form, h4, p{
-    text-align: center;
-}
-p{
-    color: #8b8b8bcc;
-    margin-top: 15px;
-}
-input {
-    border-radius: 7px 0px 0px 7px;
-    padding: 10px 30px 10px 15px;
-    border: solid 1px #8b8b8bcc;
-    height: 28px;
-}
-button {
-    border-radius: 0px 7px 7px 0px;
-    margin: -5px;
-    padding: 10px;
-    border: solid 1px #025125;
-    height: 50px;
-    background-color: #025125;
-    color: white
-}
-body{
+    margin: 0;
+    box-sizing: border-box;
     background-color: #fffbf7;
-
+}
+.header {
+    margin: 40px 0;
+    font-size: 0;
+    height: 45px;
+    font-family: sans-serif;
+}
+.logo img {
+    vertical-align: middle;
+    width: 140px;
+}
+.intro img {
+    width: 80%;
+}
+.header {
+    margin-top: 40px 20px 0 20px;
+    font-size: 0;
+    height: 45px;
+    font-family: sans-serif;
+}
+.header > *{
+    font-size: 1rem;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.navbar {
+    width: 70%;
+    text-align: center;
+    color: #025157;
+}
+.menu-item {
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.actions {
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+}
+.actions > * {
+    margin:0 10px;
+}
+.actions a {
+    color: #67b54b;
+}
+.actions button {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+}
+.menu-item:hover {
+    color: white;
+    background-color: tomato;
 }
