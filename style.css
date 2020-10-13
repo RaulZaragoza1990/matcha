@@ -4,35 +4,26 @@
     box-sizing: border-box;
 }
 body {
-    text-align: center;
     margin: 0;
     box-sizing: border-box;
     background-color: #fffbf7;
 }
 .header {
-    margin: 40px 0;
+    margin: 25px 0;
     font-size: 0;
     height: 45px;
-    font-family: sans-serif;
 }
 .logo img {
     vertical-align: middle;
     width: 140px;
 }
 .intro img {
-    width: 80%;
-}
-.header {
-    margin-top: 40px 20px 0 20px;
-    font-size: 0;
-    height: 45px;
-    font-family: sans-serif;
+    width: 70%;
 }
 .header > *{
     font-size: 1rem;
     display: inline-block;
     vertical-align: middle;
-    
 }
 .navbar {
     width: 70%;
@@ -41,36 +32,164 @@ body {
 }
 .menu-item {
     display: inline;
-    margin-right: 25px;
-    margin-left: 25px;
+    margin: 0 10px;
+    font-family: 'Open Sans';
+}
+.menu-item:hover {
+    color: white;
+    background-color: #0251579d;
+    border-radius: 3px;
+    padding: 2px 7px;
 }
 .actions {
     width: 15%;
     text-align: right;
-    font-size: 14px;
+    font-size: 16px;
+    font-family: 'Open Sans';
 }
 .actions > * {
-    margin:0 10px;
+    margin:0 5px;
+    height: 100%;
+
 }
-.actions a {
+.actions a{
     color: #67b54b;
+    text-decoration: none;
+}
+.actions a:Hover {
+    color: #025157;
 }
 .actions button {
     color: white;
     background-color: #67b54b;
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding: 20px 14px;
     border: 0;
     border-radius: 5px;
 }
-.menu-item:hover {
-    color: white;
-    background-color: tomato;
-}
 .signup-form input{
-    border-radius: 0 0 7px 7px;
-    margin: 20px 20px 20px 20px;
+    border-radius: 7px 0px 0px 7px;
+    border: solid 1px #b6b6b6;
+    height: 100%;
+    padding: 0 15px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    margin-right: -3px;
+}
+.signup-form button{
+    height: 100%;
+    border-radius: 0 7px 7px 0;
+    border: solid 1px #025157;
+    color: white;
+    background-color: #025157;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    margin-left: -3px;
+    padding: 0 15px;
+}
+.signup-form{
+    height: 55px;
+    font-family: 'Open Sans';
+    margin: 15px 0;
+}
+.section{
+    text-align: center;
+}
+.section > img{
+    margin-top: 50px;
+}
+.section h1{
+    color: #025157;
+    margin: 200px 0 25px 0;
+    font-family: 'Alegreya', serif;
+    font-size: 60px;
+}
+.section h4{
+    color: #46484c;
+    margin: 25px 0 30px 0;
+    font-family: 'Slabo 27px';
+    font-size: 20px;
+}
+.section p{
+    color:#8b8b8bcc;
+    font-family: 'Open Sans', serif;
+    font-size: 16px;
+}
+.section img{
+    margin-bottom: 18px;
+}
+.section h3{
+    color: #025157;
+    margin: 15px 0 20px 0;
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+}
+.section h5{
+    color: #343434;
+    margin: 15px 0 20px 0;
+    font-family: 'Open Sans', serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.publish {
     
 }
+.explanatory-video img{
+    width:130px;
+}
+.features {
+    background-color: #025157;
+    padding: 5% 10%;
+    display: grid;
+    grid-template: repeat(2, 330px) / repeat(2, 1fr);
+  }
+  .features .feature-card {
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  .features .feature-card .feature-content {
+    padding: 30px 20px 40px 40px;
+    flex: 2;
+  }
+  .features .feature-card .feature-content > * {
+    margin-bottom: 1rem;
+    margin-top: 0;
+    font-family: 'Open Sans', serif;
+  }
+  .features .feature-card .feature-content img {
+    width: 50px;
+  }
+  .features .feature-card .feature-content h3 {
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+  }
+  .features .feature-card .feature-content p {
+    font-size: 16px;
+    color: #7e7e7e;
+    font-weight: 400;
+  }
+  .features .feature-card .feature-content a {
+    font-size: 16px;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .features .feature-card .feature-image {
+    flex: 1;
+    width: 40%;
+    position: relative;
+    right: -50px;
+    height: 80%;
+  }
+  .features .feature-card .feature-image figure,
+  .features .feature-card .feature-image img {
+    margin-top: 0;
+    height: 100%;
+  }
