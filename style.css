@@ -5,46 +5,37 @@
 }
 body {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     background-color: #fffbf7;
 }
-.fixed-header{
-    position: sticky;
-}
 .header {
-    margin: 25px 0;
+    margin: 9px 0;
     font-size: 0;
-    height: 45px;
-}
-.logo img {
-    vertical-align: middle;
-    width: 140px;
-}
-.banner{
-    margin: 18px 0;
-    text-align: center;
-
-}
-.banner img{
-    margin: 18px 0;
-}
-.intro img {
-    width: 70%;
+    height: 55px;
 }
 .header > *{
     font-size: 1rem;
     display: inline-block;
     vertical-align: middle;
 }
+.logo img {
+    width: 150px;
+    margin: 0 5px;
+}
 .navbar {
     width: 70%;
     text-align: center;
     color: #025157;
 }
+.navbar ul{
+    margin: 0;
+}
 .menu-item {
     display: inline;
-    margin: 0 10px;
+    margin: 0 5px;
     font-family: 'Open Sans';
+    padding: 2px 7px;
 }
 .menu-item:hover {
     color: white;
@@ -55,13 +46,12 @@ body {
 .actions {
     width: 15%;
     text-align: right;
-    font-size: 16px;
-    font-family: 'Open Sans';
+    font-size: 14px;
+    font-family: 'Open Sans', serif;
+    height: 100%;
 }
 .actions > * {
     margin:0 5px;
-    height: 100%;
-
 }
 .actions a{
     color: #67b54b;
@@ -73,18 +63,38 @@ body {
 .actions button {
     color: white;
     background-color: #67b54b;
-    padding: 20px 14px;
+    padding: 12px 14px;
     border: 0;
     border-radius: 5px;
+}
+.section{
+    text-align: center;
+}
+.section .normal-p{
+    color: black;
+    font-family: 'Open Sans', serif;
+    font-size: 16px;
+}
+.section .lighter-p{
+    color:#8b8b8bcc;
+    font-family: 'Open Sans', serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.signup-form{
+    height: 55px;
+    font-family: 'Open Sans';
+    margin: 15px 0;
 }
 .signup-form input{
     border-radius: 7px 0px 0px 7px;
     border: solid 1px #b6b6b6;
     height: 100%;
     padding: 0 15px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', serif;
     font-size: 16px;
     margin-right: -3px;
+    color: #8b8b8bcc;
 }
 .signup-form button{
     height: 100%;
@@ -92,18 +102,10 @@ body {
     border: solid 1px #025157;
     color: white;
     background-color: #025157;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', serif;
     font-size: 16px;
     margin-left: -3px;
     padding: 0 15px;
-}
-.signup-form{
-    height: 55px;
-    font-family: 'Open Sans';
-    margin: 15px 0;
-}
-.section{
-    text-align: center;
 }
 .section > img{
     margin-top: 50px;
@@ -141,8 +143,15 @@ body {
     font-size: 16px;
     font-weight: lighter;
 }
-.publish {
-    
+.banner{
+    margin: 18px 0;
+    text-align: center;
+}
+.banner img{
+    margin: 18px 0;
+}
+.intro img {
+    width: 70%;
 }
 .explanatory-video img{
     width:130px;
